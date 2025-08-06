@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Logo } from '../logo';
 
-export const Footer = () => {
+export function Footer (){
     return (
         <footer className="bg-gray-500">
 
